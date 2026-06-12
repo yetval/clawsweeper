@@ -17337,7 +17337,19 @@ test("event re-review status explains superseded cancellations", () => {
   assert.match(block, /state="Superseded"/);
   assert.match(block, /A newer re-review for this item started before this run finished/);
   assert.doesNotMatch(block, /CAPACITY_OUTCOME/);
-  assert.doesNotMatch(block, /Capacity wait timed out/);
+});
+
+test("event re-review status marks exhausted provider waits terminal", () => {
+  const workflow = readFileSync(".github/workflows/sweep.yml", "utf8");
+  const block = workflow.slice(
+    workflow.indexOf("- name: Mark re-review complete"),
+    workflow.indexOf("- name: Commit event comment router ledger"),
+  );
+
+  assert.match(block, /\[ "\$PROVIDER_LEASE_ACQUIRED" != "true" \]/);
+  assert.match(block, /state="Capacity timeout"/);
+  assert.match(block, /stayed full until this workflow's wait deadline/);
+  assert.doesNotMatch(block, /state="Waiting for Codex capacity"/);
 });
 
 test("event repair retries wait for active worker capacity", () => {
@@ -17741,7 +17753,7 @@ test("reviewed viable issues dispatch the existing implementation and automerge 
   assert.match(workflow, /steps\.target\.outputs\.target_repo != 'openclaw\/clawhub'/);
 });
 
-test("sweep workflow runs exact event reviews without a global worker gate", () => {
+test("sweep workflow runs exact event reviews behind provider capacity only", () => {
   const workflow = readFileSync(".github/workflows/sweep.yml", "utf8").replace(/\r\n/g, "\n");
   const eventReviewBlock = workflow.slice(
     workflow.indexOf("\n  event-review-apply:"),
@@ -17754,10 +17766,12 @@ test("sweep workflow runs exact event reviews without a global worker gate", () 
     "- name: Mark re-review command in progress",
   );
   const setupCodexIndex = eventReviewBlock.indexOf("- uses: ./.github/actions/setup-codex");
+  const acquireProviderIndex = eventReviewBlock.indexOf("- name: Acquire Codex provider lease");
   const exactReviewIndex = eventReviewBlock.indexOf("- name: Review exact event item");
+  const releaseProviderIndex = eventReviewBlock.indexOf("- name: Release Codex provider lease");
   const exactReviewStep = eventReviewBlock.slice(
     exactReviewIndex,
-    eventReviewBlock.indexOf("- name: Create state token", exactReviewIndex),
+    eventReviewBlock.indexOf("- name: Release Codex provider lease", exactReviewIndex),
   );
 
   assert.match(
@@ -17768,11 +17782,17 @@ test("sweep workflow runs exact event reviews without a global worker gate", () 
   assert.ok(setupPnpmIndex >= 0);
   assert.ok(readTokenIndex > setupPnpmIndex);
   assert.ok(writeTokenIndex > readTokenIndex);
-  assert.ok(inProgressStatusIndex > writeTokenIndex);
-  assert.ok(setupCodexIndex > inProgressStatusIndex);
-  assert.ok(exactReviewIndex > setupCodexIndex);
+  assert.ok(setupCodexIndex > writeTokenIndex);
+  assert.ok(acquireProviderIndex > setupCodexIndex);
+  assert.ok(inProgressStatusIndex > acquireProviderIndex);
+  assert.ok(exactReviewIndex > inProgressStatusIndex);
+  assert.ok(releaseProviderIndex > exactReviewIndex);
   assert.match(exactReviewStep, /--batch-size 1/);
   assert.match(exactReviewStep, /--shard-count 1/);
+  assert.match(exactReviewStep, /repair:provider-lease -- renew/);
+  assert.match(exactReviewStep, /Provider lease renewal stopped before review completed/);
+  assert.match(eventReviewBlock, /repair:provider-lease -- acquire/);
+  assert.match(eventReviewBlock, /steps\.provider-lease\.outputs\.acquired == 'true'/);
   assert.doesNotMatch(eventReviewBlock, /Wait for exact event review capacity/);
   assert.doesNotMatch(eventReviewBlock, /wait-exact-event-capacity/);
   assert.doesNotMatch(eventReviewBlock, /Waiting for review capacity/);
@@ -18459,4 +18479,21 @@ test("safeOutputTail tolerates missing process output", () => {
   assert.equal(safeOutputTail(undefined), "");
   assert.equal(safeOutputTail(null), "");
   assert.equal(safeOutputTail("abcdef", 3), "def");
+});
+
+test("exact event reviews acquire and release a provider lease around Codex", () => {
+  const workflow = readFileSync(".github/workflows/sweep.yml", "utf8");
+  const acquireIndex = workflow.indexOf("name: Acquire Codex provider lease");
+  const reviewIndex = workflow.indexOf("name: Review exact event item");
+  const releaseIndex = workflow.indexOf("name: Release Codex provider lease");
+  const publishIndex = workflow.indexOf("name: Publish event result and apply safe close");
+
+  assert.ok(acquireIndex > 0, "expected exact event workflow to acquire a provider lease");
+  assert.ok(acquireIndex < reviewIndex, "provider lease must be acquired before Codex review");
+  assert.ok(reviewIndex < releaseIndex, "provider lease must be released after Codex review");
+  assert.ok(releaseIndex < publishIndex, "provider lease should be released before state publish");
+  assert.match(workflow, /steps\.provider-lease\.outputs\.acquired == 'true'/);
+  assert.match(workflow, /repair:provider-lease -- renew/);
+  assert.match(workflow, /CLAWSWEEPER_CODEX_PROVIDER_LEASE_RENEW_SECONDS/);
+  assert.match(workflow, /Capacity timeout/);
 });
