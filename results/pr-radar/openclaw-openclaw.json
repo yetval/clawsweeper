@@ -1,0 +1,2150 @@
+{
+  "schema_version": 1,
+  "target_repo": "openclaw/openclaw",
+  "prs_scanned": 150,
+  "limits": {
+    "max_prs": 150,
+    "max_file_pages_per_pr": 3,
+    "max_pairs": 25
+  },
+  "truncated": {
+    "prs": true,
+    "pairs": true
+  },
+  "pairs": [
+    {
+      "pr_a": {
+        "number": 41892,
+        "title": "feat(control-ui): add cron calendar timeline view",
+        "url": "https://github.com/openclaw/openclaw/pull/41892",
+        "author": "xvchris",
+        "draft": false,
+        "head_sha": "1884bb874a27a6d2b3311957da0a1d2779fb92b0"
+      },
+      "pr_b": {
+        "number": 62063,
+        "title": "Add Swedish control UI locale",
+        "url": "https://github.com/openclaw/openclaw/pull/62063",
+        "author": "yeager",
+        "draft": false,
+        "head_sha": "f751e3b54a0f0c3a67a17f8e79a76e53bb38e633"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 198,
+      "files": [
+        {
+          "base_path": "ui/src/i18n/.i18n/ar.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/de.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/es.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/fa.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/fr.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/id.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/it.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/ja-JP.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/ko.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/nl.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/pl.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/pt-BR.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/th.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/tr.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/uk.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/vi.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/zh-CN.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/zh-TW.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/locales/ar.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/de.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/en.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/es.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/fa.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/fr.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/id.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/it.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/ja-JP.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/ko.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/nl.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/pl.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/pt-BR.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/th.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/tr.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/uk.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/vi.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/zh-CN.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/zh-TW.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 59898,
+        "title": "fix(agents): handle explicit empty tool lists in system prompt",
+        "url": "https://github.com/openclaw/openclaw/pull/59898",
+        "author": "martinfrancois",
+        "draft": false,
+        "head_sha": "d8d03d7d29c03ebe476be36a23d27a27b5e9cf13"
+      },
+      "pr_b": {
+        "number": 63456,
+        "title": "Scope workspace guidance to coding contexts",
+        "url": "https://github.com/openclaw/openclaw/pull/63456",
+        "author": "ImLukeF",
+        "draft": false,
+        "head_sha": "1382808cea56f7f3f35a0498c117ee56a416cc7a"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 146,
+      "files": [
+        {
+          "base_path": "src/agents/system-prompt.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              138,
+              138
+            ],
+            [
+              296,
+              305
+            ],
+            [
+              313,
+              315
+            ],
+            [
+              396,
+              410
+            ],
+            [
+              502,
+              507
+            ],
+            [
+              585,
+              590
+            ],
+            [
+              669,
+              671
+            ],
+            [
+              701,
+              726
+            ],
+            [
+              731,
+              759
+            ],
+            [
+              810,
+              816
+            ]
+          ]
+        },
+        {
+          "base_path": "src/agents/system-prompt.test.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              122,
+              130
+            ],
+            [
+              220,
+              221
+            ],
+            [
+              235,
+              238
+            ],
+            [
+              346,
+              352
+            ],
+            [
+              367,
+              373
+            ],
+            [
+              439,
+              440
+            ],
+            [
+              449,
+              450
+            ],
+            [
+              454,
+              454
+            ],
+            [
+              733,
+              738
+            ]
+          ]
+        },
+        {
+          "base_path": "src/agents/pi-embedded-runner/run/attempt.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 41892,
+        "title": "feat(control-ui): add cron calendar timeline view",
+        "url": "https://github.com/openclaw/openclaw/pull/41892",
+        "author": "xvchris",
+        "draft": false,
+        "head_sha": "1884bb874a27a6d2b3311957da0a1d2779fb92b0"
+      },
+      "pr_b": {
+        "number": 61306,
+        "title": "Claw: add mission control backbone",
+        "url": "https://github.com/openclaw/openclaw/pull/61306",
+        "author": "digvijayyadav93",
+        "draft": false,
+        "head_sha": "3e3e3a02489b66bee53a59688ee2b9fdc560aaac"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 132,
+      "files": [
+        {
+          "base_path": "ui/src/i18n/.i18n/de.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/es.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/fr.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/id.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/ja-JP.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/ko.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/pl.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/pt-BR.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/tr.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/uk.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/zh-CN.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/zh-TW.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/locales/de.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/en.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/es.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/fr.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/id.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/ja-JP.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/ko.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/pl.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/pt-BR.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/tr.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/uk.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/zh-CN.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/zh-TW.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 61306,
+        "title": "Claw: add mission control backbone",
+        "url": "https://github.com/openclaw/openclaw/pull/61306",
+        "author": "digvijayyadav93",
+        "draft": false,
+        "head_sha": "3e3e3a02489b66bee53a59688ee2b9fdc560aaac"
+      },
+      "pr_b": {
+        "number": 62063,
+        "title": "Add Swedish control UI locale",
+        "url": "https://github.com/openclaw/openclaw/pull/62063",
+        "author": "yeager",
+        "draft": false,
+        "head_sha": "f751e3b54a0f0c3a67a17f8e79a76e53bb38e633"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 132,
+      "files": [
+        {
+          "base_path": "ui/src/i18n/.i18n/de.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/es.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/fr.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/id.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/ja-JP.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/ko.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/pl.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/pt-BR.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/tr.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/uk.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/zh-CN.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/i18n/.i18n/zh-TW.meta.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "base_path": "scripts/control-ui-i18n.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/de.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/en.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/es.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/fr.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/id.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/ja-JP.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/ko.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/pl.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/pt-BR.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/tr.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/uk.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/zh-CN.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "ui/src/i18n/locales/zh-TW.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 55828,
+        "title": "feat(msteams): add native plugin interactivity parity",
+        "url": "https://github.com/openclaw/openclaw/pull/55828",
+        "author": "Evizero",
+        "draft": false,
+        "head_sha": "0e0d02cc1076fe0fd55e1ba5d440b3e480f02964"
+      },
+      "pr_b": {
+        "number": 59986,
+        "title": "refactor(plugins): add lane-oriented channel interface",
+        "url": "https://github.com/openclaw/openclaw/pull/59986",
+        "author": "huntharo",
+        "draft": true,
+        "head_sha": "0c63ae85936808c00cf8dc2cdb59bc551f863aa9"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 101,
+      "files": [
+        {
+          "base_path": "docs/.generated/plugin-sdk-api-baseline.json",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              253,
+              259
+            ],
+            [
+              415,
+              421
+            ],
+            [
+              3707,
+              3708
+            ],
+            [
+              3711,
+              3713
+            ],
+            [
+              3765,
+              3771
+            ],
+            [
+              3792,
+              3798
+            ]
+          ]
+        },
+        {
+          "base_path": "docs/.generated/plugin-sdk-api-baseline.jsonl",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              26,
+              32
+            ],
+            [
+              44,
+              50
+            ],
+            [
+              408,
+              425
+            ],
+            [
+              482,
+              482
+            ]
+          ]
+        },
+        {
+          "base_path": "src/plugins/interactive.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              2,
+              6
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              220,
+              222
+            ],
+            [
+              236,
+              242
+            ]
+          ]
+        },
+        {
+          "base_path": "src/plugins/interactive.test.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              12,
+              16
+            ],
+            [
+              206,
+              209
+            ]
+          ]
+        },
+        {
+          "base_path": "src/plugins/interactive-dispatch-adapters.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              7,
+              10
+            ],
+            [
+              217,
+              219
+            ]
+          ]
+        },
+        {
+          "base_path": "extensions/msteams/src/channel.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/plugins/commands.test.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/plugins/commands.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/plugins/runtime/runtime-channel.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/plugins/runtime/types-channel.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/plugins/types.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 52951,
+        "title": "feat: add tools.fs.roots — per-agent filesystem roots with access modes",
+        "url": "https://github.com/openclaw/openclaw/pull/52951",
+        "author": "JuanRdBO",
+        "draft": false,
+        "head_sha": "083625704ef4aeacca35dd779000e44897e943c6"
+      },
+      "pr_b": {
+        "number": 60981,
+        "title": "# PR: Filesystem Access Control (PathGuard)",
+        "url": "https://github.com/openclaw/openclaw/pull/60981",
+        "author": "Ar3ss12",
+        "draft": false,
+        "head_sha": "57f1b2fe512cfee0b692939c5e72221b8b7ecc4d"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 60,
+      "files": [
+        {
+          "base_path": "src/agents/apply-patch.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              8,
+              15
+            ],
+            [
+              78,
+              82
+            ],
+            [
+              89,
+              97
+            ],
+            [
+              117,
+              120
+            ],
+            [
+              408,
+              412
+            ]
+          ]
+        },
+        {
+          "base_path": "src/agents/tool-fs-policy.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              4,
+              9
+            ],
+            [
+              12,
+              28
+            ],
+            [
+              50,
+              52
+            ]
+          ]
+        },
+        {
+          "base_path": "src/agents/tools/media-tool-shared.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              16,
+              18
+            ]
+          ]
+        },
+        {
+          "base_path": "src/agents/tools/image-tool.test.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/agents/tools/image-tool.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/agents/tools/media-tool-shared.test.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/agents/tools/pdf-tool.test.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/agents/tools/pdf-tool.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/config/schema.help.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/config/schema.labels.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/config/types.tools.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/config/zod-schema.agent-runtime.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 44111,
+        "title": "Backup: add encrypted snapshot backup flow",
+        "url": "https://github.com/openclaw/openclaw/pull/44111",
+        "author": "shichangs",
+        "draft": false,
+        "head_sha": "dd2c48fe37263cf406593b06e420bf372a5215a0"
+      },
+      "pr_b": {
+        "number": 44288,
+        "title": "feat(backup): add exclude patterns, --smart-exclude, and protected path guards [ai]",
+        "url": "https://github.com/openclaw/openclaw/pull/44288",
+        "author": "brettdavies",
+        "draft": false,
+        "head_sha": "f05341c066112f8fe634a78661768d61566fda9b"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 57,
+      "files": [
+        {
+          "base_path": "src/commands/backup-verify.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              3,
+              8
+            ],
+            [
+              12,
+              17
+            ],
+            [
+              170,
+              183
+            ],
+            [
+              243,
+              243
+            ]
+          ]
+        },
+        {
+          "base_path": "src/cli/program/register.backup.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              6,
+              11
+            ],
+            [
+              26,
+              31
+            ],
+            [
+              48,
+              53
+            ],
+            [
+              59,
+              64
+            ]
+          ]
+        },
+        {
+          "base_path": "src/cli/program/register.backup.test.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              101,
+              104
+            ]
+          ]
+        },
+        {
+          "base_path": "src/infra/backup-create.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              269,
+              270
+            ]
+          ]
+        },
+        {
+          "base_path": "src/commands/backup-verify.test.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 36630,
+        "title": "fix(signal): complete bidirectional quote-reply support",
+        "url": "https://github.com/openclaw/openclaw/pull/36630",
+        "author": "joeykrug",
+        "draft": false,
+        "head_sha": "f39be53f9c984df00fd83fe246ab65a37c615adb"
+      },
+      "pr_b": {
+        "number": 46303,
+        "title": "fix: drain inbound debounce buffer and followup queues before SIGUSR1 reload",
+        "url": "https://github.com/openclaw/openclaw/pull/46303",
+        "author": "joeykrug",
+        "draft": false,
+        "head_sha": "e11fa8968bad55c0389d7ccfd0cfb0afeb47a310"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 41,
+      "files": [
+        {
+          "base_path": "src/skills/loading/workspace.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              64,
+              71
+            ],
+            [
+              111,
+              125
+            ]
+          ]
+        },
+        {
+          "base_path": "src/gateway/session-utils.single-row-cache.test.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              271,
+              279
+            ],
+            [
+              288,
+              296
+            ]
+          ]
+        },
+        {
+          "base_path": "src/auto-reply/reply/queue/drain.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 40392,
+        "title": "config: use datetime suffix for config backup files instead of numeric rotation",
+        "url": "https://github.com/openclaw/openclaw/pull/40392",
+        "author": "davidxcli",
+        "draft": false,
+        "head_sha": "254301db01025e546b50bad305549f9465217b83"
+      },
+      "pr_b": {
+        "number": 61522,
+        "title": "config/io: add proper logging for IO error handling",
+        "url": "https://github.com/openclaw/openclaw/pull/61522",
+        "author": "soumojit-D48",
+        "draft": false,
+        "head_sha": "99b57dd2c06b41ffdfd237cf9c6cf5e0b711774d"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 35,
+      "files": [
+        {
+          "base_path": "src/config/backup-rotation.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              2,
+              5
+            ],
+            [
+              22,
+              37
+            ],
+            [
+              89,
+              96
+            ],
+            [
+              101,
+              107
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 18778,
+        "title": "Discord: Discord canvas!",
+        "url": "https://github.com/openclaw/openclaw/pull/18778",
+        "author": "thewilloftheshadow",
+        "draft": true,
+        "head_sha": "c34ed8c8bf6d30d2c190b3f4f8bd8cc0301bc0b5"
+      },
+      "pr_b": {
+        "number": 65205,
+        "title": "feat(discord): add canvas-first Discord Activities support",
+        "url": "https://github.com/openclaw/openclaw/pull/65205",
+        "author": "thewilloftheshadow",
+        "draft": false,
+        "head_sha": "89b897744353f2f89428fd61b8b60830c20f1044"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 32,
+      "files": [
+        {
+          "base_path": "src/gateway/server-http.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              9,
+              20
+            ]
+          ]
+        },
+        {
+          "base_path": "src/config/types.gateway.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              38,
+              41
+            ],
+            [
+              46,
+              49
+            ]
+          ]
+        },
+        {
+          "base_path": "src/gateway/server-close.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              8,
+              13
+            ]
+          ]
+        },
+        {
+          "base_path": "src/canvas-host/a2ui.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              8,
+              12
+            ]
+          ]
+        },
+        {
+          "base_path": "src/canvas-host/a2ui/index.html",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              307,
+              307
+            ]
+          ]
+        },
+        {
+          "base_path": "docs/channels/discord-activities.md",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "docs/channels/discord.md",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "docs/docs.json",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/config/zod-schema.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/gateway/a2ui-activity.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/gateway/server-methods/nodes.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/gateway/server-runtime-state.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/gateway/server.impl.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 60842,
+        "title": "fix(agents): re-expose toolsAllow core tools in embedded runs",
+        "url": "https://github.com/openclaw/openclaw/pull/60842",
+        "author": "ricoyudog",
+        "draft": false,
+        "head_sha": "781130b95dd53f94711850079826cbc1f1e6ea7f"
+      },
+      "pr_b": {
+        "number": 60981,
+        "title": "# PR: Filesystem Access Control (PathGuard)",
+        "url": "https://github.com/openclaw/openclaw/pull/60981",
+        "author": "Ar3ss12",
+        "draft": false,
+        "head_sha": "57f1b2fe512cfee0b692939c5e72221b8b7ecc4d"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 27,
+      "files": [
+        {
+          "base_path": "src/agents/pi-tools.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              48,
+              53
+            ],
+            [
+              324,
+              326
+            ],
+            [
+              366,
+              376
+            ],
+            [
+              391,
+              392
+            ],
+            [
+              645,
+              649
+            ]
+          ]
+        },
+        {
+          "base_path": "src/agents/pi-embedded-runner/run/attempt.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 36630,
+        "title": "fix(signal): complete bidirectional quote-reply support",
+        "url": "https://github.com/openclaw/openclaw/pull/36630",
+        "author": "joeykrug",
+        "draft": false,
+        "head_sha": "f39be53f9c984df00fd83fe246ab65a37c615adb"
+      },
+      "pr_b": {
+        "number": 42637,
+        "title": "fix(skills): list omitted skill names when prompt is truncated",
+        "url": "https://github.com/openclaw/openclaw/pull/42637",
+        "author": "imwyvern",
+        "draft": false,
+        "head_sha": "0ff24c7e1157e8d4da94463c10e90a772be11fea"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 23,
+      "files": [
+        {
+          "base_path": "src/skills/loading/workspace.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              64,
+              71
+            ],
+            [
+              111,
+              125
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 42637,
+        "title": "fix(skills): list omitted skill names when prompt is truncated",
+        "url": "https://github.com/openclaw/openclaw/pull/42637",
+        "author": "imwyvern",
+        "draft": false,
+        "head_sha": "0ff24c7e1157e8d4da94463c10e90a772be11fea"
+      },
+      "pr_b": {
+        "number": 46303,
+        "title": "fix: drain inbound debounce buffer and followup queues before SIGUSR1 reload",
+        "url": "https://github.com/openclaw/openclaw/pull/46303",
+        "author": "joeykrug",
+        "draft": false,
+        "head_sha": "e11fa8968bad55c0389d7ccfd0cfb0afeb47a310"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 23,
+      "files": [
+        {
+          "base_path": "src/skills/loading/workspace.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              64,
+              71
+            ],
+            [
+              111,
+              125
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 49511,
+        "title": "feat(control-ui): render Mermaid code fences in webchat",
+        "url": "https://github.com/openclaw/openclaw/pull/49511",
+        "author": "chembohuang",
+        "draft": false,
+        "head_sha": "1f8226a577ee809a7a64dfd2d57fbd95b7fee4a0"
+      },
+      "pr_b": {
+        "number": 61519,
+        "title": "CI: report circular dependencies in PRs",
+        "url": "https://github.com/openclaw/openclaw/pull/61519",
+        "author": "huntharo",
+        "draft": false,
+        "head_sha": "298112d90a8fc1d41b56850d4969654ada137fd3"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 22,
+      "files": [
+        {
+          "base_path": "pnpm-lock.yaml",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              4806,
+              4809
+            ],
+            [
+              4889,
+              4894
+            ],
+            [
+              5568,
+              5569
+            ],
+            [
+              6500,
+              6502
+            ],
+            [
+              12191,
+              12197
+            ]
+          ]
+        },
+        {
+          "base_path": "package.json",
+          "severity": "file",
+          "overlapping_lines": []
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 18778,
+        "title": "Discord: Discord canvas!",
+        "url": "https://github.com/openclaw/openclaw/pull/18778",
+        "author": "thewilloftheshadow",
+        "draft": true,
+        "head_sha": "c34ed8c8bf6d30d2c190b3f4f8bd8cc0301bc0b5"
+      },
+      "pr_b": {
+        "number": 44884,
+        "title": "security: gateway public network hardening",
+        "url": "https://github.com/openclaw/openclaw/pull/44884",
+        "author": "yeyanle6",
+        "draft": false,
+        "head_sha": "84960eddcd623814be11c597aef54c0a30323226"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 21,
+      "files": [
+        {
+          "base_path": "src/gateway/server-runtime-state.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              6,
+              11
+            ],
+            [
+              57,
+              60
+            ],
+            [
+              165,
+              169
+            ]
+          ]
+        },
+        {
+          "base_path": "src/gateway/server-http.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              15,
+              20
+            ]
+          ]
+        },
+        {
+          "base_path": "src/config/types.gateway.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/gateway/server.impl.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 57959,
+        "title": "fix(agents): fallback retry image safety and partial execution detection",
+        "url": "https://github.com/openclaw/openclaw/pull/57959",
+        "author": "mitchmcalister",
+        "draft": false,
+        "head_sha": "c39c5cc97332bc2233c62bfa310a01041c312a94"
+      },
+      "pr_b": {
+        "number": 63456,
+        "title": "Scope workspace guidance to coding contexts",
+        "url": "https://github.com/openclaw/openclaw/pull/63456",
+        "author": "ImLukeF",
+        "draft": false,
+        "head_sha": "1382808cea56f7f3f35a0498c117ee56a416cc7a"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 21,
+      "files": [
+        {
+          "base_path": "src/agents/pi-embedded-runner/run/attempt.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1472,
+              1492
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 18196,
+        "title": "feat(security): add client-side skill security enforcement",
+        "url": "https://github.com/openclaw/openclaw/pull/18196",
+        "author": "orlyjamie",
+        "draft": false,
+        "head_sha": "2c61fb69c1cca5ea46136fe71ade96efba1a2e45"
+      },
+      "pr_b": {
+        "number": 63456,
+        "title": "Scope workspace guidance to coding contexts",
+        "url": "https://github.com/openclaw/openclaw/pull/63456",
+        "author": "ImLukeF",
+        "draft": false,
+        "head_sha": "1382808cea56f7f3f35a0498c117ee56a416cc7a"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 18,
+      "files": [
+        {
+          "base_path": "src/agents/system-prompt.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              6,
+              11
+            ],
+            [
+              28,
+              28
+            ],
+            [
+              33,
+              43
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 53821,
+        "title": "Add per-agent sandbox session visibility override feature",
+        "url": "https://github.com/openclaw/openclaw/pull/53821",
+        "author": "sasan1200",
+        "draft": false,
+        "head_sha": "a984bf1ade3003652a511842a46d78f7a2a04f74"
+      },
+      "pr_b": {
+        "number": 59170,
+        "title": "feat: per-agent session visibility and agentToAgent scoping",
+        "url": "https://github.com/openclaw/openclaw/pull/59170",
+        "author": "prasad-yashdeep",
+        "draft": false,
+        "head_sha": "9adc9d691b613b5a8961b6d0819bfd45fce6fac9"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 17,
+      "files": [
+        {
+          "base_path": "src/agents/tools/sessions-access.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              20,
+              25
+            ],
+            [
+              33,
+              36
+            ],
+            [
+              39,
+              40
+            ]
+          ]
+        },
+        {
+          "base_path": "src/agents/tools/sessions-list-tool.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              96,
+              100
+            ]
+          ]
+        },
+        {
+          "base_path": "src/agents/tools/sessions-access.test.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/agents/tools/sessions-send-tool.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 54724,
+        "title": "fix/agents-primary-model-selection-and-catalog-loading-41344",
+        "url": "https://github.com/openclaw/openclaw/pull/54724",
+        "author": "wsyjh8",
+        "draft": false,
+        "head_sha": "55b8ebe40afb639379544da56bd866031ecd3bfd"
+      },
+      "pr_b": {
+        "number": 62417,
+        "title": "feat: add workspace file management for agents",
+        "url": "https://github.com/openclaw/openclaw/pull/62417",
+        "author": "WilShi",
+        "draft": false,
+        "head_sha": "36fafff7dc12c0d209932d44d731cefaeec583df"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 17,
+      "files": [
+        {
+          "base_path": "ui/src/ui/views/agents.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              95,
+              97
+            ],
+            [
+              263,
+              268
+            ],
+            [
+              360,
+              365
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/ui/views/agents.test.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              97,
+              98
+            ]
+          ]
+        },
+        {
+          "base_path": "ui/src/ui/app-render.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 14432,
+        "title": "System prompt: add guidance for spawning background sub-agents",
+        "url": "https://github.com/openclaw/openclaw/pull/14432",
+        "author": "vignesh07",
+        "draft": false,
+        "head_sha": "060c6d669aeaad04582e8a37c001b2b2b6266432"
+      },
+      "pr_b": {
+        "number": 63456,
+        "title": "Scope workspace guidance to coding contexts",
+        "url": "https://github.com/openclaw/openclaw/pull/63456",
+        "author": "ImLukeF",
+        "draft": false,
+        "head_sha": "1382808cea56f7f3f35a0498c117ee56a416cc7a"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 14,
+      "files": [
+        {
+          "base_path": "src/agents/system-prompt.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              377,
+              382
+            ],
+            [
+              403,
+              409
+            ]
+          ]
+        },
+        {
+          "base_path": "src/agents/system-prompt.test.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              120,
+              120
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 44884,
+        "title": "security: gateway public network hardening",
+        "url": "https://github.com/openclaw/openclaw/pull/44884",
+        "author": "yeyanle6",
+        "draft": false,
+        "head_sha": "84960eddcd623814be11c597aef54c0a30323226"
+      },
+      "pr_b": {
+        "number": 65205,
+        "title": "feat(discord): add canvas-first Discord Activities support",
+        "url": "https://github.com/openclaw/openclaw/pull/65205",
+        "author": "thewilloftheshadow",
+        "draft": false,
+        "head_sha": "89b897744353f2f89428fd61b8b60830c20f1044"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 13,
+      "files": [
+        {
+          "base_path": "src/gateway/server-http.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              15,
+              20
+            ]
+          ]
+        },
+        {
+          "base_path": "src/gateway/server-runtime-state.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              13,
+              17
+            ]
+          ]
+        },
+        {
+          "base_path": "src/gateway/server.impl.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              515,
+              516
+            ]
+          ]
+        },
+        {
+          "base_path": "src/config/types.gateway.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 61306,
+        "title": "Claw: add mission control backbone",
+        "url": "https://github.com/openclaw/openclaw/pull/61306",
+        "author": "digvijayyadav93",
+        "draft": false,
+        "head_sha": "3e3e3a02489b66bee53a59688ee2b9fdc560aaac"
+      },
+      "pr_b": {
+        "number": 63456,
+        "title": "Scope workspace guidance to coding contexts",
+        "url": "https://github.com/openclaw/openclaw/pull/63456",
+        "author": "ImLukeF",
+        "draft": false,
+        "head_sha": "1382808cea56f7f3f35a0498c117ee56a416cc7a"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 13,
+      "files": [
+        {
+          "base_path": "src/agents/system-prompt.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              27,
+              28
+            ],
+            [
+              309,
+              314
+            ],
+            [
+              594,
+              598
+            ]
+          ]
+        },
+        {
+          "base_path": "src/agents/pi-embedded-runner/run/attempt.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        },
+        {
+          "base_path": "src/agents/system-prompt.test.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 50463,
+        "title": "fix(agents): hint when unknown tools are skills",
+        "url": "https://github.com/openclaw/openclaw/pull/50463",
+        "author": "Meelfy",
+        "draft": false,
+        "head_sha": "8657da638a842d8f4d0b5fe5dd48ffa7b9d68aa1"
+      },
+      "pr_b": {
+        "number": 63456,
+        "title": "Scope workspace guidance to coding contexts",
+        "url": "https://github.com/openclaw/openclaw/pull/63456",
+        "author": "ImLukeF",
+        "draft": false,
+        "head_sha": "1382808cea56f7f3f35a0498c117ee56a416cc7a"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 12,
+      "files": [
+        {
+          "base_path": "src/agents/pi-embedded-runner/run/attempt.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              1,
+              6
+            ],
+            [
+              1919,
+              1924
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 43469,
+        "title": "security: scan markdown skill definitions for injection threats",
+        "url": "https://github.com/openclaw/openclaw/pull/43469",
+        "author": "Alex-Alaniz",
+        "draft": false,
+        "head_sha": "940632d529e5a0cf04a30f39af221dc29392209e"
+      },
+      "pr_b": {
+        "number": 55875,
+        "title": "feat(security): add YARA-based skill security scanner",
+        "url": "https://github.com/openclaw/openclaw/pull/55875",
+        "author": "JasonOA888",
+        "draft": false,
+        "head_sha": "8952a54a1374567ed02c41e8a0432d821a1cbe5c"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 11,
+      "files": [
+        {
+          "base_path": "src/security/skill-scanner.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              215,
+              216
+            ],
+            [
+              300,
+              308
+            ]
+          ]
+        },
+        {
+          "base_path": "src/security/skill-scanner.test.ts",
+          "severity": "file",
+          "overlapping_lines": []
+        }
+      ]
+    },
+    {
+      "pr_a": {
+        "number": 43951,
+        "title": "Fix/hooks agent accountid normalization",
+        "url": "https://github.com/openclaw/openclaw/pull/43951",
+        "author": "pauldesmondparker",
+        "draft": false,
+        "head_sha": "8499f96ed3fd690d3e8f7245ab23e337526ba923"
+      },
+      "pr_b": {
+        "number": 44884,
+        "title": "security: gateway public network hardening",
+        "url": "https://github.com/openclaw/openclaw/pull/44884",
+        "author": "yeyanle6",
+        "draft": false,
+        "head_sha": "84960eddcd623814be11c597aef54c0a30323226"
+      },
+      "severity": "lines",
+      "containment": "none",
+      "overlapping_line_total": 11,
+      "files": [
+        {
+          "base_path": "src/gateway/server-http.ts",
+          "severity": "lines",
+          "overlapping_lines": [
+            [
+              729,
+              733
+            ],
+            [
+              748,
+              753
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "digest": "sha256:ccd878a1f80cb8423952205d248a0b69d59a437fa23171df59ba69806050d799",
+  "updated_at": "2026-07-06T15:45:28.766Z"
+}
